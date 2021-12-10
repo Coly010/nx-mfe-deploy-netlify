@@ -33,7 +33,6 @@ module.exports = {
   },
   optimization: {
     runtimeChunk: false,
-    minimize: false,
   },
   resolve: {
     alias: {

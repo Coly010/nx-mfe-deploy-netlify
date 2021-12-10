@@ -68,7 +68,8 @@
       },
       "defaultConfiguration": "development",
       "options": {
-        "port": 4202
+        "port": 4202,
+        "publicHost": "http://localhost:4202"
       }
     },
     "extract-i18n": {

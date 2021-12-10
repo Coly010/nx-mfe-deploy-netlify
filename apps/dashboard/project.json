@@ -98,11 +98,7 @@
     "serve-mfe": {
       "executor": "@nrwl/workspace:run-commands",
       "options": {
-        "commands": [
-          "nx serve todo",
-          "nx serve login",
-          "nx serve dashboard -- --liveReload=false"
-        ]
+        "commands": ["nx serve todo", "nx serve login", "nx serve dashboard"]
       }
     }
   },

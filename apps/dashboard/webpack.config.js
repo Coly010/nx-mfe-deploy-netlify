@@ -46,8 +46,10 @@ module.exports = {
   plugins: [
     new ModuleFederationPlugin({
       remotes: {
-        login: `https://nx-mfe-deploy-vercel-login.vercel.app/remoteEntry.mjs`,
-        todo: `https://nx-mfe-deploy-vercel-todo.vercel.app/remoteEntry.js`,
+        // login: `https://nx-mfe-deploy-vercel-login.vercel.app/remoteEntry.mjs`,
+        // todo: `https://nx-mfe-deploy-vercel-todo.vercel.app/remoteEntry.js`,
+        login: `http://localhost:4201/remoteEntry.mjs`,
+        todo: `http://localhost:4202/remoteEntry.js`,
       },
       shared: {
         '@angular/core': { singleton: true, strictVersion: true },

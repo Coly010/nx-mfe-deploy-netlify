@@ -1,6 +1,7 @@
 const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPlugin');
 const mf = require('@angular-architects/module-federation/webpack');
 const path = require('path');
+const TerserPlugin = require('terser-webpack-plugin');
 
 /**
  * We use the NX_TSCONFIG_PATH environment variable when using the @nrwl/angular:webpack-browser
@@ -29,7 +30,6 @@ sharedMappings.register(
 module.exports = {
   output: {
     uniqueName: 'login',
-    publicPath: 'auto',
   },
   optimization: {
     runtimeChunk: false,

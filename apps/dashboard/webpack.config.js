@@ -30,10 +30,7 @@ sharedMappings.register(
 module.exports = {
   output: {
     uniqueName: 'dashboard',
-    publicPath: (resourcePath, context) => {
-      console.log(resourcePath, context);
-      return '';
-    },
+    publicPath: 'auto',
   },
   optimization: {
     runtimeChunk: false,

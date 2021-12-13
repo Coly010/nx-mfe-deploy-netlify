@@ -30,6 +30,7 @@ sharedMappings.register(
 module.exports = {
   output: {
     uniqueName: 'login',
+    publicPath: 'auto',
   },
   optimization: {
     runtimeChunk: false,

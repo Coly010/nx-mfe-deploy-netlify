@@ -30,7 +30,7 @@ sharedMappings.register(
 module.exports = {
   output: {
     uniqueName: 'todo',
-    publicPath: 'https://nx-mfe-deploy-todo.netlify.com',
+    publicPath: 'auto',
   },
   optimization: {
     runtimeChunk: false,

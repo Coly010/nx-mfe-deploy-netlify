@@ -13,11 +13,7 @@
         "main": "apps/todo/src/main.ts",
         "polyfills": "apps/todo/src/polyfills.ts",
         "tsConfig": "apps/todo/tsconfig.app.json",
-        "assets": [
-          "apps/todo/src/favicon.ico",
-          "apps/todo/src/assets",
-          "apps/todo/src/netlify.toml"
-        ],
+        "assets": ["apps/todo/src/favicon.ico", "apps/todo/src/assets"],
         "styles": ["apps/todo/src/styles.css"],
         "scripts": [],
         "customWebpackConfig": {

@@ -13,11 +13,7 @@
         "main": "apps/login/src/main.ts",
         "polyfills": "apps/login/src/polyfills.ts",
         "tsConfig": "apps/login/tsconfig.app.json",
-        "assets": [
-          "apps/login/src/favicon.ico",
-          "apps/login/src/assets",
-          "apps/login/src/netlify.toml"
-        ],
+        "assets": ["apps/login/src/favicon.ico", "apps/login/src/assets"],
         "styles": ["apps/login/src/styles.css"],
         "scripts": [],
         "customWebpackConfig": {

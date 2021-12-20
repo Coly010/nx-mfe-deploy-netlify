@@ -15,8 +15,7 @@
         "tsConfig": "apps/dashboard/tsconfig.app.json",
         "assets": [
           "apps/dashboard/src/favicon.ico",
-          "apps/dashboard/src/assets",
-          "apps/dashboard/src/netlify.toml"
+          "apps/dashboard/src/assets"
         ],
         "styles": ["apps/dashboard/src/styles.css"],
         "scripts": [],
